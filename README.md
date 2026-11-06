@@ -57,7 +57,7 @@ public class dasd {
         Scanner scanner = new Scanner(System.in);
 
 
-        int secretNumber = random.nextInt(100) + 1;
+        int newNumb = random.nextInt(100) + 1;
 
         int maxAttempts = 10;
         int attempts = 0;
@@ -77,9 +77,9 @@ public class dasd {
                 continue;
             }
 
-            if (guess < secretNumber) {
+            if (guess < newNumb) {
                 System.out.println("Моё число больше");
-            } else if (guess > secretNumber) {
+            } else if (guess > newNumb) {
                 System.out.println("Моё число меньше");
             } else {
                 System.out.println("Поздравляю! Вы угадали!");
