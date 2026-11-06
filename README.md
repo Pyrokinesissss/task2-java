@@ -85,7 +85,7 @@ public class dasd {
                 System.out.println("Поздравляю! Вы угадали!");
                 System.out.println("Вы угадали за " + attempts + " попыток");
                 scanner.close();
-                return; // завершаем программу при победе
+                return; 
             }
         }
 
